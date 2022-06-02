@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_stock_landed_cost_tree_inherit">
+            <field name="name">stock.landed.cost.tree.inherit</field>
+            <field name="model">stock.landed.cost</field>
+            <field name="inherit_id" ref="stock_landed_costs.view_stock_landed_cost_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='date']" position="after">
+                    <field name="vendor_partner_id"/>
+                    <field name="vendor_bill_id"/>
+                    <field name="numero_factura"/>
+                    <field name="amount_total"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_stock_landed_cost_search_inherit" model="ir.ui.view">
+            <field name="name">stock.landed.cost.tree.search.inherit</field>
+            <field name="model">stock.landed.cost</field>
+            <field name="inherit_id" ref="stock_landed_costs.view_stock_landed_cost_search"/>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="numero_factura" filter_domain="[('numero_factura','ilike',self)]" string="Número de Factura"/>
+                </search>
+                <xpath expr="//filter[@name='group_by_month']" position="after">
+                    <filter string="Transferencia" name="group_by_transfer" context="{'group_by':'picking_ids_name_field'}"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
