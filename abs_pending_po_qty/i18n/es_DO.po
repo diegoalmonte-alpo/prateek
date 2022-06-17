@@ -1,0 +1,48 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* abs_pending_po_qty
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e-20210821\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-21 16:22+0000\n"
+"PO-Revision-Date: 2022-02-21 16:22+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: abs_pending_po_qty
+#: model_terms:ir.ui.view,arch_db:abs_pending_po_qty.pending_purchase_order_qty_on_product_kanban_view
+msgid "<strong>Pending Purchase Order Quantity:</strong>"
+msgstr "<strong>Cantidad de orden de compra pendiente:</strong>"
+
+#. module: abs_pending_po_qty
+#: code:addons/abs_pending_po_qty/models/po_product_template.py:0
+#, python-format
+msgid "List of Pending purchase Order Lines"
+msgstr "Lista de líneas de órdenes de compra pendientes"
+
+#. module: abs_pending_po_qty
+#: model:ir.model,name:abs_pending_po_qty.model_product_template
+msgid "Product Template"
+msgstr "Plantilla producto"
+
+#. module: abs_pending_po_qty
+#: model_terms:ir.ui.view,arch_db:abs_pending_po_qty.purchase_order_line_tree_custom_view
+msgid "Purchase Order Lines"
+msgstr "Líneas de orden de compra"
+
+#. module: abs_pending_po_qty
+#: model:ir.model.fields,field_description:abs_pending_po_qty.field_product_product__purchase_order_qty
+#: model:ir.model.fields,field_description:abs_pending_po_qty.field_product_template__purchase_order_qty
+msgid "Total Purchase Order"
+msgstr "Total de orden de compra"
+
+#. module: abs_pending_po_qty
+#: model_terms:ir.ui.view,arch_db:abs_pending_po_qty.purchase_order_line_tree_custom_view
+msgid "Vendor"
+msgstr "Proveedor"
