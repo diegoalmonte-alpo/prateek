@@ -1,0 +1,324 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* dev_vendor_account_statement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e-20210821\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-25 20:16+0000\n"
+"PO-Revision-Date: 2022-03-25 20:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: dev_vendor_account_statement
+#: model:mail.template,body_html:dev_vendor_account_statement.dev_vendor_send_statement
+msgid ""
+"\n"
+"            \t<p>Dear <b>${object.name}</b>,</p>\n"
+"            \t<p></p>\n"
+"            \t<p> Your Account Statement Attach in this email</p>\n"
+"            \t\n"
+"            \t<b>Regards,</b><br/>\n"
+"            \t${object.company_id.name}\n"
+"                "
+msgstr ""
+"\n"
+"            \t<p>Estimado <b>${object.name}</b>,</p>\n"
+"            \t<p></p>\n"
+"            \t<p> Su estado de cuenta adjunto en este email</p>\n"
+"            \t\n"
+"            \t<b>Saludos,</b><br/>\n"
+"            \t${object.company_id.name}\n"
+"                "
+
+#. module: dev_vendor_account_statement
+#: model:mail.template,report_name:dev_vendor_account_statement.dev_vendor_send_statement
+msgid "${(object.name)} Account Statement"
+msgstr "${(object.name)} Estado de Cuenta"
+
+#. module: dev_vendor_account_statement
+#: model:mail.template,subject:dev_vendor_account_statement.dev_vendor_send_statement
+msgid "${object.name} Account Statement"
+msgstr "${object.name} Estado de Cuenta"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "<b>Credit Term </b>"
+msgstr "<b>Términos de Crédito </b>"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "<b>Current</b>"
+msgstr "<b>Actual</b>"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "<b>STATEMENT OF ACCOUNT</b>"
+msgstr "<b>ESTADO DE CUENTA</b>"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "<strong>Sub-Total :</strong>"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "<strong>There is nothing due with this Vendor.</strong>"
+msgstr "<strong>No hay facturas pendientes para este proveedor.</strong>"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__4
+msgid "APR"
+msgstr "ABR"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__8
+msgid "AUG"
+msgstr "AGO"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__aging_by
+msgid "Ageing By"
+msgstr "Envejecimiento por"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_res_partner__aging_by
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_res_users__aging_by
+msgid "Aging By"
+msgstr "Envejecimiento por"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "As of"
+msgstr "Al "
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "Balance Due"
+msgstr "Balance"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.view_vendor_statement_form
+msgid "Cancel"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model,name:dev_vendor_account_statement.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_res_partner__report_currency_id
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_res_users__report_currency_id
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__12
+msgid "DEC"
+msgstr "DIC"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.view_vendor_statement_form
+msgid "Date As on"
+msgstr "Fecha al"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "Description"
+msgstr "Descripción"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_report_dev_vendor_account_statement_vendor_statement_template__display_name
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__res_partner__aging_by__due_date
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__aging_by__due_date
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "Due Date"
+msgstr "Vencimiento"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_external_customer_sta_header
+msgid "Email:"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__2
+msgid "FEB"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_report_dev_vendor_account_statement_vendor_statement_template__id
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__id
+msgid "ID"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "Invoice #"
+msgstr "Factura"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "Invoice Amt"
+msgstr "Monto"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__res_partner__aging_by__inv_date
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__aging_by__inv_date
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "Invoice Date"
+msgstr "Fecha"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__1
+msgid "JAN"
+msgstr "ENE"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__7
+msgid "JUL"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__6
+msgid "JUN"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_report_dev_vendor_account_statement_vendor_statement_template____last_update
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__3
+msgid "MAR"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__5
+msgid "MAY"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__month
+msgid "Month"
+msgstr "Mes"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__11
+msgid "NOV"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__10
+msgid "OCT"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_res_partner__overdue_date
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_res_users__overdue_date
+msgid "Overdue Date"
+msgstr "Fecha vencida"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_external_customer_sta_header
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_statement_main_template
+msgid "Payment Amt"
+msgstr "Pago"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_external_customer_sta_header
+msgid "Phone:"
+msgstr "Teléfono:"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__is_privious_year
+msgid "Print Previous Year"
+msgstr "Imprimir Año Anterior"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.view_vendor_statement_form
+msgid "Print Statement"
+msgstr "Imprimir Estado"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields.selection,name:dev_vendor_account_statement.selection__vendor_statement__month__9
+msgid "SEP"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.view_vendor_statement_form
+msgid "Send"
+msgstr "Enviar"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model.fields,field_description:dev_vendor_account_statement.field_vendor_statement__date_upto
+msgid "Upto Date"
+msgstr "A Hoy"
+
+#. module: dev_vendor_account_statement
+#: model:ir.actions.act_window,name:dev_vendor_account_statement.action_vendor_statement
+msgid "Vendor Account Statement"
+msgstr "Estado de Cuenta Proveedor"
+
+#. module: dev_vendor_account_statement
+#: model:ir.actions.report,name:dev_vendor_account_statement.report_vendor_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.view_vendor_statement_form
+msgid "Vendor Statement"
+msgstr "Estado de Cuenta Proveedor"
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.vendor_external_customer_sta_header
+msgid "Web:"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model_terms:ir.ui.view,arch_db:dev_vendor_account_statement.view_vendor_statement_form
+msgid "or"
+msgstr "o"
+
+#. module: dev_vendor_account_statement
+#: model:ir.model,name:dev_vendor_account_statement.model_report_dev_vendor_account_statement_vendor_statement_template
+msgid "report.dev_vendor_account_statement.vendor_statement_template"
+msgstr ""
+
+#. module: dev_vendor_account_statement
+#: model:ir.model,name:dev_vendor_account_statement.model_vendor_statement
+msgid "vendor.statement"
+msgstr ""
